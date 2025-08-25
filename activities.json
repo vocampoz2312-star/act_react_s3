@@ -1,0 +1,46 @@
+[
+    {
+        "activity": "Crear el layout raíz (app/layout.js) con estructura HTML básica y navegación simple con enlaces a Inicio, Productos, Blog y Contacto usando componente Link.",
+        "solution": "src/app/layout.tsx"
+    },
+    {
+        "activity": "Crear la página de inicio (app/page.js) con título 'Página de Inicio', párrafo de bienvenida y enlaces a las demás secciones.",
+        "solution": "src/app/page.tsx"
+    },
+    {
+        "activity": "Crear página de Productos (app/productos/page.js) con título, lista de 3 productos (Laptop, Smartphone, Tablet) y enlaces a páginas individuales.",
+        "solution": "src/app/productos/page.tsx"
+    },
+    {
+        "activity": "Crear página de Blog (app/blog/page.js) con título, lista de 3 artículos y enlaces a páginas individuales de cada artículo.",
+        "solution": "src/app/blog/page.tsx"
+    },
+    {
+        "activity": "Crear página de Contacto (app/contacto/page.js) con título e información básica de contacto.",
+        "solution": "src/app/contacto/page.tsx"
+    },
+    {
+        "activity": "Crear layout para productos (app/productos/layout.js) con título 'Sección de Productos', navegación secundaria y área para contenido.",
+        "solution": "src/app/productos/layout.tsx"
+    },
+    {
+        "activity": "Crear páginas de categorías: app/productos/electronicos/page.js y app/productos/ropa/page.js con productos específicos y contador.",
+        "solution": "src/app/productos/electronicos/page.tsx"
+    },
+    {
+        "activity": "Crear layout para blog (app/blog/layout.js) con título 'Sección de Blog', navegación secundaria y área para contenido.",
+        "solution": "src/app/blog/layout.tsx"
+    },
+    {
+        "activity": "Crear ruta dinámica para productos individuales (app/productos/[id]/page.js) que reciba parámetro id y muestre información del producto.",
+        "solution": "src/app/productos/[id]/page.tsx"
+    },
+    {
+        "activity": "Crear página de artículo individual (app/blog/[slug]/page.js) que reciba parámetro slug y muestre contenido del artículo.",
+        "solution": "src/app/blog/[slug]/page.tsx"
+    },
+    {
+        "activity": "Crear ruta catch-all (app/docs/[...slug]/page.js) que maneje múltiples segmentos y muestre sistema de breadcrumbs.",
+        "solution": "src/app/docs/[...slug]/page.tsx"
+    }
+]
