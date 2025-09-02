@@ -1,0 +1,94 @@
+{
+  "narilin/act_react_s3": {
+    "repositoryUrl": "narilin/act_react_s3",
+    "studentName": "Narilyn Bustamante",
+    "activities": [
+      {
+        "activityDescription": "Crear el layout raíz (app/layout.js) con estructura HTML básica y navegación simple con enlaces a Inicio, Productos, Blog y Contacto usando componente Link.",
+        "solutionFile": "src/app/layout.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. Cumple con todos los requisitos de la actividad, incluyendo la estructura HTML básica, la navegación con Link y la configuración de metadatos. Buen uso de estilos en línea para la navegación."
+      },
+      {
+        "activityDescription": "Crear la página de inicio (app/page.js) con título 'Página de Inicio', párrafo de bienvenida y enlaces a las demás secciones.",
+        "solutionFile": "src/app/page.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "¡Excelente! La página de inicio cumple con todos los requisitos: título, párrafo de bienvenida y enlaces funcionales a las otras secciones. El código es limpio y bien estructurado."
+      },
+      {
+        "activityDescription": "Crear página de Productos (app/productos/page.js) con título, lista de 3 productos (Laptop, Smartphone, Tablet) y enlaces a páginas individuales.",
+        "solutionFile": "src/app/productos/page.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "La solución es correcta, clara y cumple con todos los requisitos. El código es legible y bien estructurado, utilizando `Link` de `next/link` correctamente."
+      },
+      {
+        "activityDescription": "Crear página de Blog (app/blog/page.js) con título, lista de 3 artículos y enlaces a páginas individuales de cada artículo.",
+        "solutionFile": "src/app/blog/page.js",
+        "score": 5,
+        "fileFound": true,
+        "feedback": "Excelente solución. Cumple con todos los requisitos de la actividad de manera clara y concisa. El código es limpio y fácil de entender."
+      },
+      {
+        "activityDescription": "Crear página de Contacto (app/contacto/page.js) con título e información básica de contacto.",
+        "solutionFile": "src/app/contacto/page.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La actividad se resuelve correctamente, cumpliendo con lo solicitado. Se podría mejorar la estructura agregando estilos CSS y utilizando componentes más específicos para la información de contacto."
+      },
+      {
+        "activityDescription": "Crear layout para productos (app/productos/layout.js) con título 'Sección de Productos', navegación secundaria y área para contenido.",
+        "solutionFile": "src/app/productos/layout.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La estructura del layout es correcta y cumple con los requisitos. Se sugiere extraer los estilos a un archivo CSS o usar un sistema de estilos (como styled-components o Tailwind CSS) para mejor mantenibilidad.  Buen trabajo."
+      },
+      {
+        "activityDescription": "Crear páginas de categorías: app/productos/electronicos/page.js y app/productos/ropa/page.js con productos específicos y contador.",
+        "solutionFile": "src/app/productos/electronicos/page.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La actividad se resuelve correctamente mostrando los productos electrónicos y su contador. Considera extraer la lista de productos a una variable fuera del componente para mejor organización y mantenibilidad del código."
+      },
+      {
+        "activityDescription": "Crear layout para blog (app/blog/layout.js) con título 'Sección de Blog', navegación secundaria y área para contenido.",
+        "solutionFile": "src/app/blog/layout.js",
+        "score": 3,
+        "fileFound": true,
+        "feedback": "Cumple con la creación del layout básico y muestra el título. Considera agregar la navegación secundaria solicitada y mejorar la estructura con elementos semánticos HTML5 (e.g., `<main>`)."
+      },
+      {
+        "activityDescription": "Crear ruta dinámica para productos individuales (app/productos/[id]/page.js) que reciba parámetro id y muestre información del producto.",
+        "solutionFile": "src/app/productos/[id]/page.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución cumple con la creación de la ruta dinámica y muestra la información del producto según el ID. Podría mejorar extrayendo la lógica de los datos de productos a un archivo separado y/o usando una llamada a una API real en lugar de datos hardcoded."
+      },
+      {
+        "activityDescription": "Crear página de artículo individual (app/blog/[slug]/page.js) que reciba parámetro slug y muestre contenido del artículo.",
+        "solutionFile": "src/app/blog/[slug]/page.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La página muestra el slug dinámicamente, cumpliendo con el objetivo principal.  Sería ideal obtener el contenido real del artículo basado en el slug desde una base de datos o archivo."
+      },
+      {
+        "activityDescription": "Crear ruta catch-all (app/docs/[...slug]/page.js) que maneje múltiples segmentos y muestre sistema de breadcrumbs.",
+        "solutionFile": "src/app/docs/[...slug]/page.js",
+        "score": 4,
+        "fileFound": true,
+        "feedback": "La solución cumple con la creación de la ruta catch-all y muestra breadcrumbs. Podría mejorarse la presentación de los breadcrumbs con componentes de UI y considerar casos de borde (ej: slug vacío). "
+      }
+    ],
+    "overallScore": 4.2727272727272725,
+    "totalActivities": 11,
+    "completedActivities": 11,
+    "summary": "Excelente trabajo. Completó 11/11 actividades (100%) con una calificación promedio de 4.3/5. Demuestra buen dominio de los conceptos.",
+    "recommendations": [
+      "Continuar con el excelente trabajo y mantener la calidad del código"
+    ],
+    "evaluatedAt": "2025-09-02T00:37:58.665Z",
+    "evaluatedBy": "Sistema de Evaluación"
+  }
+}
