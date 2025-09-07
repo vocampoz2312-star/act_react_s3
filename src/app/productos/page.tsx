@@ -1,8 +1,8 @@
 export default function ProductosPage() {
   return (
     <div>
-      <h1>Productos</h1>
-      <p>Aquí encontrarás nuestros productos especiales para rizos.</p>
+      <h2>Todos los Productos</h2>
+      <p>Selecciona una categoría para ver nuestros artículos disponibles.</p>
     </div>
   );
 }
