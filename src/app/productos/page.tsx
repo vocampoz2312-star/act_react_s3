@@ -12,13 +12,13 @@ export default function ProductosPage() {
       <h2>Todos los Productos</h2>
       <p>Selecciona un producto para ver más detalles:</p>
 
-      <ul>
+      <div>
         {productos.map((p) => (
-          <li key={p.id}>
+          <div key={p.id} className="card">
             <Link href={`/productos/${p.id}`}>{p.nombre}</Link>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

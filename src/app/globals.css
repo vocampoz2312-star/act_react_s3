@@ -5,68 +5,78 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fafafa;
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f7f9fc;
   color: #333;
-  line-height: 1.6;
+  height: 100%;
 }
 
-h1, h2 {
-  color: #04547e;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  margin-bottom: 1rem;
-}
-
-/* Navegación principal */
+/* Navbar principal */
 nav {
-  background-color: #04709e;
-  padding: 1rem;
+  background: linear-gradient(90deg, #04547e, #04709e);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 nav ul {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   list-style: none;
 }
 
-nav ul li a {
-  color: #fff;
+nav a {
+  color: white;
+  font-weight: 600;
   text-decoration: none;
-  font-weight: bold;
+  transition: color 0.2s;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
+nav a:hover {
+  color: #90b9d3;
 }
 
-/* Navegación secundaria */
-section nav {
-  background-color: #90b9d3;
-  padding: 0.5rem;
-  border-radius: 6px;
+/* Contenido general */
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1rem;
 }
 
-section nav ul li a {
-  color: #244454;
-  font-weight: 500;
+/* Títulos */
+h1, h2 {
+  color: #04547e;
+  margin-bottom: 1rem;
 }
 
-/* Contenedor principal */
-main, section {
-  padding: 1rem 2rem;
+/* Tarjetas / secciones */
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-/* Listados */
-ul {
-  margin-left: 1.2rem;
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
 }
 
-li {
+/* Listas bonitas */
+ul li {
   margin-bottom: 0.5rem;
+}
+
+ul li a {
+  color: #04709e;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
 }
 
 /* Breadcrumbs */
@@ -74,16 +84,4 @@ li {
   font-size: 0.9rem;
   color: #5c8ca9;
   margin-bottom: 1rem;
-}
-
-/* Links de retorno */
-.back-link {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #04709e;
-  font-weight: bold;
-}
-
-.back-link:hover {
-  text-decoration: underline;
 }
