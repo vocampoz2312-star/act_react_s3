@@ -1,26 +1,89 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #04547e;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Navegación principal */
+nav {
+  background-color: #04709e;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Navegación secundaria */
+section nav {
+  background-color: #90b9d3;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+section nav ul li a {
+  color: #244454;
+  font-weight: 500;
+}
+
+/* Contenedor principal */
+main, section {
+  padding: 1rem 2rem;
+}
+
+/* Listados */
+ul {
+  margin-left: 1.2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 0.9rem;
+  color: #5c8ca9;
+  margin-bottom: 1rem;
+}
+
+/* Links de retorno */
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #04709e;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
 }

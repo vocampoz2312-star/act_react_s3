@@ -10,9 +10,13 @@ export default function ProductoPage({ params }: ProductoPageProps) {
   return (
     <div>
       <h2>Producto: {id}</h2>
-      <p>Este es el detalle del producto con ID {id}. Aquí puedes agregar más información.</p>
+      <p>
+        Este es el detalle del producto con ID {id}. Aquí puedes agregar más información.
+      </p>
 
-      <Link href="/productos">⬅ Volver a la lista de productos</Link>
+      <Link href="/productos" className="back-link">
+        ⬅ Volver a la lista de productos
+      </Link>
     </div>
   );
 }
